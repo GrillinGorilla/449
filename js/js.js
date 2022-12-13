@@ -1,4 +1,17 @@
-//$.getScript("https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js", function({});
+
+function random()
+{
+	$.post("https://449.duckdns.org/api/webhook/-PQZpHuNTLJEIFPFe5HssCJjh", 
+		  function(data,status){$.toast({
+				text: "Woooooooo.....too much eggnog!",
+				heading: status,
+				position: 'top-right',
+				bgColor: '#2ecc71',
+				textColor: '#fff',
+			  });
+			$("#changeTheLightsHeader").css('color', '#E83B3B');
+		});
+}
 
 function c9ColorLoop()
 {
