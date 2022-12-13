@@ -17,13 +17,13 @@ function c9ColorLoop()
 {
 	$.post("https://449.duckdns.org/api/webhook/-OsI_5KynODhu32-mdAbPwJrs", 
 		  function(data,status){$.toast({
-				text: "The house should be flashing colors now.",
+				text: "My house is now flashing you. You gonna blush?",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', '#BF1212');
 		});
 }
 
@@ -31,13 +31,13 @@ function c9MultiColor()
 {
 	$.post("https://449.duckdns.org/api/webhook/-0HdVk5rTDNIhkHo_VE-QAtcY", 
 		  function(data,status){$.toast({
-				text: "The house should have a Classic Christmas design now.",
+				text: "Is Griswold jealous yet?",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', '#0A959C');
 		});
 }
 
@@ -51,7 +51,7 @@ function christmasAurora()
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', '#114B1A');
 		});
 }
 
@@ -65,7 +65,7 @@ function christmasPlasma()
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', '#80F074');
 		});
 }
 
@@ -73,13 +73,13 @@ function christmasSlowTwinkle()
 {
 	$.post("https://449.duckdns.org/api/webhook/-GA6X0ZJhs_17PV_HA83KRWp4", 
 		  function(data,status){$.toast({
-				text: "Gonna start that slow twinkle on now",
+				text: "Gonna get that slow twinkle on now",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', '#FF71EA');
 		});
 }
 
@@ -93,7 +93,7 @@ function gobleGlitter()
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', '#723695');
 		});
 }
 
@@ -101,13 +101,13 @@ function gobleGlitter2()
 {
 	$.post("https://449.duckdns.org/api/webhook/-xX6NZfaVWtIATQgA_b2yi6B1", 
 		  function(data,status){$.toast({
-				text: "Also Courtesy of Goble Design, Inc.",
+				text: "Also, Courtesy of Goble Design, Inc.",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', '#D89320');
 		});
 }
 
@@ -121,7 +121,7 @@ function solidBlue()
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', 'blue');
 		});
 }
 
@@ -135,7 +135,7 @@ function solidGreen()
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', 'lightgreen');
 		});
 }
 
@@ -149,7 +149,7 @@ function solidOrange()
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', 'orange');
 		});
 }
 
@@ -163,7 +163,7 @@ function solidPink()
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', 'pink');
 		});
 }
 
@@ -177,7 +177,7 @@ function solidPurple()
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', 'purple');
 		});
 }
 
@@ -191,7 +191,7 @@ function solidRed()
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', 'red');
 		});
 }
 
@@ -199,13 +199,13 @@ function solidTeal()
 {
 	$.post("https://449.duckdns.org/api/webhook/-xQA6l73ohnZ-E-YWNbSSWmH8", 
 		  function(data,status){$.toast({
-				text: "Teal because no one else does teal at Christmas!",
+				text: "Teal because....well.....i dunno",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', 'teal');
 		});
 }
 
@@ -213,13 +213,13 @@ function solidWarmWhite()
 {
 	$.post("https://449.duckdns.org/api/webhook/-uFUGf7zwoWaXtu1KroJPs2BU", 
 		  function(data,status){$.toast({
-				text: "Classic, vintage white",
+				text: "Classic, vintage white. Cant be that bad right?",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', '#977A49');
 		});
 }
 
@@ -233,7 +233,7 @@ function warmWhiteDarkShadows()
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', '#76CACB');
 		});
 }
 
@@ -247,6 +247,6 @@ function warmWhiteFairyTwinkle()
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#E83B3B');
+			$("#changeTheLightsHeader").css('color', '#768DCB');
 		});
 }
