@@ -241,7 +241,7 @@ function warmWhiteFairyTwinkle()
 {
 	$.post("https://449.duckdns.org/api/webhook/-m6pCphrd59uIHRXRppEJbP0u", 
 		  function(data,status){$.toast({
-				text: "'Son of a nutcracker!' – Buddy",
+				text: "'Son of a nutcracker!' – Buddy, the Elf",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
