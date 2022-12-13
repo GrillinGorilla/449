@@ -43,7 +43,7 @@ function c9MultiColor()
 
 function christmasAurora()
 {
-	$.post("https://449.duckdns.org/api/webhook/-0HdVk5rTDNIhkHo_VE-QAtcY", 
+	$.post("https://449.duckdns.org/api/webhook/-UiaGpfbVaqUroB0HGHktLwki", 
 		  function(data,status){$.toast({
 				text: "How do you like this design? Is it better than Plasma?",
 				heading: status,
@@ -127,7 +127,7 @@ function solidBlue()
 
 function solidGreen()
 {
-	$.post("https://449.duckdns.org/api/webhook/-pw1v1sLCVANTp2H3WTMrH3__", 
+	$.post("https://449.duckdns.org/api/webhook/-_K_-ZBQfnDzV-tioqUtZ4RgO", 
 		  function(data,status){$.toast({
 				text: "Green for the Grinch!",
 				heading: status,
