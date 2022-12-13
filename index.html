@@ -1,57 +1,110 @@
 <!DOCTYPE html>
 <html>
-<head>	
-<title>449</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<script src="js/jquery.toast.js"></script>	
-<link rel="stylesheet" href="js/jquery.toast.css">
-<script>
-	
-  $("#c9ColorLoopButton").click(function(){
-    $.post("https://449.duckdns.org/api/webhook/-OsI_5KynODhu32-mdAbPwJrs", 
-      function(data,status){$.toast({
-            text: "The house should be flashing colors now.",
-			heading: status,
-			position: 'top-right',
-			bgColor: '#2ecc71',
-			textColor: '#fff',
-          });
-		$("#div1").css('color', '#E83B3B');
-    });
-	
-  });
-</script>
-	
-<style>
-	body
-	{
-		color: #D0D0D0;
-		background-color: #686868;
-		text-align: center;
-	}
-	
-	.button
-	{
-		width: 50%; 
-		margin: 10px;
-		padding: 5px 0px 5px 0px;
-		font-size: 3em;
-		color: darkblue;
-		background-color: #D0D0D0;
-		border-color: darkblue;
-	}
-	
-</style>
-	
-</head>
-<body>
+  <head>
+    <title>449</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	  
+	<!-- THIS PAGE -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/flow_status.css">
+    <script src="js/js.js"></script>	
+	  
+	<!-- TOAST -->
+    <script src="js/jquery.toast.js"></script>	
+    <link rel="stylesheet" href="css/jquery.toast.css">
+	  
+	<!-- <script src="js/pop_out_nav_menu.js"></script> -->
+    <!-- <link rel="stylesheet" href="css/pop_out_nav_menu.css"> -->
+	 
+  </head>
 
-<div id="div1">
-    <h1>Change the House Lights!</h1>
-	<h3>Select a setting below</h3>
-</div>
-	
-<button id="c9ColorLoopButton" class="button">C9 Color Loop</button>
+  <body>
+    <div id='page_banner'>
+            <!-- <span onclick="openPopOutNavMenu()"> -->
+			<span>
+                <img id="page_logo" src="img/hub_logo_white_border_thin.png" alt="My image"/>
+                <span class='page_title' id='page_title_nfdw'>449</span> <span class='page_title' id='page_title_hub'>Lights</span>
+            </span>
+    </div>
+    <div id='page_content_container'>
+    
+      <h3 id="changeTheLightsHeader" class='page_header'>Change the Lights!</h3>
+  
+      <div id='page_content_wrapper'>
+      
+        <div class='light_choice_button' onclick="c9ColorLoop()">
+          C9 Loop
+        </div>
+      
+        <div class='light_choice_button' onclick="c9MultiColor()">
+          C9 Multi-Color
+        </div>
+      
+        <div class='light_choice_button' onclick="christmasAurora()">
+          Christmas Aurora
+        </div>
+      
+        <div class='light_choice_button' onclick="christmasPlasma()">
+          Christmas Plasma
+        </div>
+      
+        <div class='light_choice_button' onclick="christmasSlowTwinkle()">
+          Christmas Slow Twinkle
+        </div>
+      
+        <div class='light_choice_button' onclick="gobleGlitter()">
+          Goble Glitter
+        </div>
+      
+        <div class='light_choice_button' onclick="gobleGlitter2()">
+          Goble Glitter 2
+        </div>
+      
+        <div class='light_choice_button' onclick="solidBlue()">
+          Solid Blue
+        </div>
+      
+        <div class='light_choice_button' onclick="solidGreen()">
+          Solid Green
+        </div>
+      
+        <div class='light_choice_button' onclick="solidOrange()">
+          Solid Orange
+        </div>
+      
+        <div class='light_choice_button' onclick="solidPink()">
+          Solid Pink
+        </div>
+      
+        <div class='light_choice_button' onclick="solidPurple()">
+          Solid Purple
+        </div>
+      
+        <div class='light_choice_button' onclick="solidRed()">
+          Solid Red
+        </div>
+      
+        <div class='light_choice_button' onclick="solidTeal()">
+          Solid Teal
+        </div>
+        
+        <div class='light_choice_button' onclick="solidWarmWhite()">
+          Solid Warm White
+        </div>
+        
+        <div class='light_choice_button' onclick="warmWhiteDarkShadows()">
+          Warm White Fairy Twinkle
+        </div>
+        
+        <div class='light_choice_button' onclick="warmWhiteFairyTwinkle()">
+          Warm White Fairy Twinkle
+        </div>
+      
+      </div>
+    </div>
 
-</body>
+  </body>
+
 </html>
