@@ -261,6 +261,6 @@ function surprise()
 				bgColor: '#2ecc71',
 				textColor: '#fff',
 			  });
-			$("#changeTheLightsHeader").css('color', '#768DCB');
+			$("#changeTheLightsHeader").css('color', '#5F5539');
 		});
 }
