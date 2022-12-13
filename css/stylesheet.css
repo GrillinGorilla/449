@@ -55,17 +55,12 @@ body
 
 #page_title_hub
 {
-    color: #1C57A5;
-    text-shadow:
-        -1px -1px 0 white,  
-        1px -1px 0 white,
-        -1px 1px 0 white,
-        1px 1px 0 white;
+    color: #3A913F;
 }
 
 #page_title_nfdw
 {
-    color: white;
+    color: red;
 }
 
 .menu_icon
