@@ -44,14 +44,6 @@
     font-weight: bold;
 }
 
-.light_choice_button_title
-{
-    text-align: center;
-    float: left;
-    font-weight: bold;
-    padding-left: 15px;
-}
-
 .light_choice_button:hover
 {
     cursor: pointer;
