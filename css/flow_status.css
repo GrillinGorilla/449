@@ -34,7 +34,7 @@
     width: 300px;
     height: 70px;
     line-height: 70px;
-    background-color: #747678;
+    background-color: #3A913F;
     color: white;
     display: inline-block;
     text-align: center;
@@ -52,7 +52,7 @@
     padding-left: 15px;
 }
 
-.light_choice_button_title:hover
+.light_choice_button:hover
 {
     cursor: pointer;
 }
