@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>	
+<title>449</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="js/jquery.toast.js"></script>	
+<link rel="stylesheet" href="js/jquery.toast.css">
+<script>
+	
+  $("#c9ColorLoopButton").click(function(){
+    $.post("https://449.duckdns.org/api/webhook/-OsI_5KynODhu32-mdAbPwJrs", 
+      function(data,status){$.toast({
+            text: "The house should be flashing colors now.",
+			heading: status,
+			position: 'top-right',
+			bgColor: '#2ecc71',
+			textColor: '#fff',
+          });
+		$("#div1").css('color', '#E83B3B');
+    });
+	
+  });
+	
+});
+</script>
+	
+<style>
+	body
+	{
+		color: #D0D0D0;
+		background-color: #686868;
+		text-align: center;
+	}
+	
+	.button
+	{
+		width: 50%; 
+		margin: 10px;
+		padding: 5px 0px 5px 0px;
+		font-size: 3em;
+		color: darkblue;
+		background-color: #D0D0D0;
+		border-color: darkblue;
+	}
+	
+</style>
+	
+</head>
+<body>
+
+<div id="div1">
+    <h1>Change the House Lights!</h1>
+	<h3>Select a setting below</h3>
+</div>
+	
+<button id="c9ColorLoopButton" class="button">C9 Color Loop</button>
+
+</body>
+</html>
