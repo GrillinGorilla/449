@@ -241,7 +241,21 @@ function warmWhiteFairyTwinkle()
 {
 	$.post("https://449.duckdns.org/api/webhook/-m6pCphrd59uIHRXRppEJbP0u", 
 		  function(data,status){$.toast({
-				text: "Fairies at Christmas? Aren't those elves?",
+				text: "'Son of a nutcracker!' – Buddy",
+				heading: status,
+				position: 'top-right',
+				bgColor: '#2ecc71',
+				textColor: '#fff',
+			  });
+			$("#changeTheLightsHeader").css('color', '#768DCB');
+		});
+}
+
+function surprise()
+{
+	$.post("https://449.duckdns.org/api/webhook/-0YQUzXkW5wIOyriEkvAdxQWA", 
+		  function(data,status){$.toast({
+				text: "Sh*tter's full!",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
