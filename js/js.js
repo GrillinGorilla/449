@@ -17,7 +17,7 @@ function c9ColorLoop()
 {
 	$.post("https://449.duckdns.org/api/webhook/-OsI_5KynODhu32-mdAbPwJrs", 
 		  function(data,status){$.toast({
-				text: "My house is now flashing you. You gonna blush?",
+				text: "How does Frosty get away without wearing pants?",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
@@ -31,7 +31,7 @@ function c9MultiColor()
 {
 	$.post("https://449.duckdns.org/api/webhook/-0HdVk5rTDNIhkHo_VE-QAtcY", 
 		  function(data,status){$.toast({
-				text: "Is Griswold jealous yet?",
+				text: "Griswold couldn't do this!",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
@@ -101,7 +101,7 @@ function gobleGlitter2()
 {
 	$.post("https://449.duckdns.org/api/webhook/-xX6NZfaVWtIATQgA_b2yi6B1", 
 		  function(data,status){$.toast({
-				text: "Also, Courtesy of Goble Design, Inc.",
+				text: "Deck the halls with whiskey and cookies!",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
@@ -115,7 +115,7 @@ function solidBlue()
 {
 	$.post("https://449.duckdns.org/api/webhook/-pw1v1sLCVANTp2H3WTMrH3__", 
 		  function(data,status){$.toast({
-				text: "Is this blue enough for ya?",
+				text: "'I'll have a blue Christmas without you...' - Elvis",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
@@ -185,7 +185,7 @@ function solidRed()
 {
 	$.post("https://449.duckdns.org/api/webhook/-5jBEo2k13qX0xnpMdDwbM6NJ", 
 		  function(data,status){$.toast({
-				text: "Redder than a blushing Rudolph",
+				text: "Redder than a blushing Rudolph - probably cuz Frosty isnt wearing pants!",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
@@ -199,7 +199,7 @@ function solidTeal()
 {
 	$.post("https://449.duckdns.org/api/webhook/-xQA6l73ohnZ-E-YWNbSSWmH8", 
 		  function(data,status){$.toast({
-				text: "Teal because....well.....i dunno",
+				text: "'He knows when you're asleep'.... these darn Alexa devices...",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
@@ -213,7 +213,7 @@ function solidWarmWhite()
 {
 	$.post("https://449.duckdns.org/api/webhook/-uFUGf7zwoWaXtu1KroJPs2BU", 
 		  function(data,status){$.toast({
-				text: "Classic, vintage white. Cant be that bad right?",
+				text: "Johanna would be mad at me if I didnt include this color",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
@@ -227,7 +227,7 @@ function warmWhiteDarkShadows()
 {
 	$.post("https://449.duckdns.org/api/webhook/-E8Ux658X0Km6xM9Kr2E7MWaI", 
 		  function(data,status){$.toast({
-				text: "This was kinda cool...",
+				text: "'Have yourself a merry little Christmas' - Jesus, probably",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
@@ -241,7 +241,7 @@ function warmWhiteFairyTwinkle()
 {
 	$.post("https://449.duckdns.org/api/webhook/-m6pCphrd59uIHRXRppEJbP0u", 
 		  function(data,status){$.toast({
-				text: "Johanna's Favorite",
+				text: "Fairies at Christmas? Aren't those elves?",
 				heading: status,
 				position: 'top-right',
 				bgColor: '#2ecc71',
